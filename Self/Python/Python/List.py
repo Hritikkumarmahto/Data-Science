@@ -131,3 +131,40 @@ list5.sort(reverse=True)
 print(list5)
 
 list5.index('a',3)  # to check if the elemetn came after 3rd index 
+
+
+str1=[1,2,3,4]
+str2=str1.reverse()
+print(str2)
+
+
+marks=[1,2,3,4,5,6,9]
+print(len(marks))
+for i in range (len(marks)):
+  marks[i]=0
+
+print(marks)
+print(len(marks))
+
+emp_name=["hritik","aman","rohan"]
+
+list1=[]
+for i in  emp_name:
+  for ch in range (len(i)):
+   if i[ch] in "aeiouAEIOU":
+      list1.append(i[ch])
+
+print(list1)
+
+marks = [50, 23, 55, 6, 70]
+
+pass_list = []
+
+for mark in marks:
+    if mark >= 50:
+        pass_list.append([mark, "Pass"],)
+    else:
+        pass_list.append([mark, "Fail"])
+
+for i in pass_list:
+   print(i,"\n")
