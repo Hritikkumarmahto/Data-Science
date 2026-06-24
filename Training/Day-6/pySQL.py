@@ -8,3 +8,4 @@ cursor.execute("create database Training")
 
 for i in cursor.fetchall():
   print(i)
+
