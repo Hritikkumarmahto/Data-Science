@@ -1,0 +1,2 @@
+negative,this is vary bad product i ordered one month ago
+bad_products,['shoes', 'cricket bat']

@@ -25,6 +25,7 @@ for key, value in product.items():
     if isinstance(value, int):
         dtype = "INT"
     elif isinstance(value, float):
+        .
         dtype = "FLOAT"
     else:
         dtype = "TEXT"
@@ -50,6 +51,8 @@ for column in columns:
     print(column)
 
 print("Table created successfully.")
+
+
 
 
 
