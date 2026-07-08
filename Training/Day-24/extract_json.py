@@ -25,12 +25,13 @@ for key, value in product.items():
     if isinstance(value, int):
         dtype = "INT"
     elif isinstance(value, float):
-        .
+        
         dtype = "FLOAT"
     else:
         dtype = "TEXT"
 
     columns.append(f"{key} {dtype}")
+
 
 query = f"CREATE TABLE IF NOT EXISTS Products ({', '.join(columns)})"
 
@@ -51,6 +52,10 @@ for column in columns:
     print(column)
 
 print("Table created successfully.")
+
+for key,value in product.items():
+    insertQuery = "insert into Products value ({value})"
+    
 
 
 

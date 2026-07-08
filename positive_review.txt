@@ -1,2 +1,0 @@
-positive, this product is very good go for it 
-good_products,['books', 'mobile', 'phone']

@@ -1,0 +1,74 @@
+{
+  "students": [
+    {
+      "student_id": 101,
+      "name": "Aarav Sharma",
+      "age": 20,
+      "course": "Data Science",
+      "marks": 88
+    },
+    {
+      "student_id": 102,
+      "name": "Priya Singh",
+      "age": 21,
+      "course": "Computer Science",
+      "marks": 92
+    },
+    {
+      "student_id": 103,
+      "name": "Rahul Verma",
+      "age": 19,
+      "course": "Artificial Intelligence",
+      "marks": 85
+    },
+    {
+      "student_id": 104,
+      "name": "Sneha Gupta",
+      "age": 22,
+      "course": "Cyber Security",
+      "marks": 90
+    },
+    {
+      "student_id": 105,
+      "name": "Karan Mehta",
+      "age": 20,
+      "course": "Information Technology",
+      "marks": 78
+    },
+    {
+      "student_id": 106,
+      "name": "Neha Joshi",
+      "age": 21,
+      "course": "Machine Learning",
+      "marks": 95
+    },
+    {
+      "student_id": 107,
+      "name": "Rohan Kapoor",
+      "age": 19,
+      "course": "Data Analytics",
+      "marks": 82
+    },
+    {
+      "student_id": 108,
+      "name": "Ananya Mishra",
+      "age": 20,
+      "course": "Software Engineering",
+      "marks": 87
+    },
+    {
+      "student_id": 109,
+      "name": "Vikram Patel",
+      "age": 22,
+      "course": "Cloud Computing",
+      "marks": 91
+    },
+    {
+      "student_id": 110,
+      "name": "Isha Roy",
+      "age": 20,
+      "course": "Big Data",
+      "marks": 89
+    }
+  ]
+}
